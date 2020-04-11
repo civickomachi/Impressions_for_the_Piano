@@ -81,29 +81,22 @@
 	  \clef treble
 	  \ottava #2
 	  
-	  <aes''''' c,>8( \pp [<es' g,> <es g,> <es g,>] <des f,>4 <es g,>8 [<f a,>] |
-	  <ges bes,>8 [<f a,> <des f,> <es g,>~] <es g,>2) |
-	  r8 <es g,>8( [<ges bes,> <aes c,>] <f a,> [<ges bes,> <f a,> <des f,>] |
-	  <f a,>8 [<des f,>] <es g,>2.) |
+	  <f''''' aes,>8( \pp [<c' es,> <c es,> <c es,>] <bes des,>4 <c es,>8 [<d f,>] |
+	  <es ges,>8 [<d f,> <bes des,> <c es,>~] <c es,>2) |
+	  
+	  r1 |
+	  
+	  r8 <c es,>8( [<es ges,> <f aes,>] <d f,> [<es ges,> <d f,> <bes des,>] |
+	  <d f,>8 [<bes des,>] <c es,>2.) |
 
-	  <bes d,>4( <des f,>8 [<es g,>] <f a,> [<ges bes,> <f a,> <des f,>] |
-	  <es g,>8 [<bes d,>~] <bes d,>2 <des f,>4 |
-	  <es g,>4 <des f,>8 [<es g,>] <bes d,>4 <aes c,> |
-	  <bes d,>4 <es, g,> <f a,>2) |
+	  r1 |
 
-	  bes8( \< [es] des2 es4) |
-	  es8( [aes] ges2 aes4) \mf |
+	  <g bes,>4( <bes des,>8 [<c es,>] <d f,> [<es ges,> <d f,> <bes des,>] |
+	  <c es,>8 [<g bes,>~] <g bes,>2 r4 |
+	  r2. <bes des,>4 |
+	  <c es,>4 <bes des,>8 [<c es,>] <g bes,>4 <f aes,> |
+	  <g bes,>4 <c, es,> <d f,>2) |
 
-          bes32 \pp [aes ges c,] bes' [aes ges c,] bes' [aes ges c,] bes' [aes ges c,] bes' [aes ges c,] bes' [aes ges c,] bes' [aes ges c,] bes' [aes ges c,] |
-
-	  bes8( \mf \< [es] des2 es4) |
-	  f8( [bes] aes2 bes4) \f |
-
-	  c32 \pp [bes aes d,] c' [bes aes d,] c' [bes aes d,] c' [bes aes d,] c' [bes aes d,] c' [bes aes d,] c' [bes aes d,] c' [bes aes d,] |
-
-	  bes8( \f \< [es] des2 es4) |
-	  es8( [aes] ges2 aes4) |
-	  bes8( [es] des2 es4) \ff |
 
 
 
@@ -184,27 +177,21 @@
 	  \clef treble
 	  des8( \mf [aes' aes aes] ges4 aes8 [bes] |
 	  ces8 [bes ges aes~] aes2) |
+
+	  r1 |
+	  
 	  r8 aes8( [ces des] bes [ces bes ges] |
 	  bes8 [ges] aes2.) |
 
+	  r1 |
+
 	  es4( ges8 [aes] bes [ces bes ges] |
-	  aes8 [es~] es2 ges4 |
+	  aes8 [es~] es2 r4 |
+
+	  r2. ges4 |
 	  aes4 ges8 [aes] es4 des |
 	  es4 aes, bes2) |
 
-	  bes8( \< [es] des2 es4) |
-	  es8( [aes] ges2 aes4) \mf |
-	  
-          des16 \pp [es des es] des [es des es] des [es des es] des [es des es] |
-
-	  bes,8( \mf \< [es] des2 es4) |
-	  f8( [bes] aes2 bes4) \f |
-
-	  es16 \pp [f es f] es [f es f] es [f es f] es [f es f] |
-
-	  bes,,8( \f \< [es] des2 es4) |
-	  es8( [aes] ges2 aes4) |
-	  bes8( [es] des2 es4) \ff |
 
       }
     }
@@ -278,17 +265,21 @@
 	  s1 \sustainOn \bar "||"
 
 
-	  s1 |
-	  s1 |
-	  s1 |
-	  s1 |
+	  r1 |
+	  r2.. a,,,16( [a'] |
+	  <e''' b g c,,>1) |
+	  
+	  r1 |
+	  r2.. c,,,16( [c'] |
+	  <e'' c g>1) |
 
-	  s1 |
-	  s1 |
+	  r1 |
+	  r2.. d,,,16( [d'] |
+	  <g' d g,>1) |
 	  s1 |
 	  s1 |
 	  
-	  s1 |
+	  r1 |
 	  
 	  s1 |
 	  s1 |
