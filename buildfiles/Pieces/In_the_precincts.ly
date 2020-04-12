@@ -97,8 +97,35 @@
 	  <c es,>4 <bes des,>8 [<c es,>] <g bes,>4 <f aes,> |
 	  <g bes,>4 <c, es,> <d f,>2) |
 
+	  \ottava #0
+	  r1 |
+	  r1 |
+	  bes,,,8( [e] d2 e4) |
+	  f8( [bes] aes2.) |
+	  e8( [bes'] aes2 c4) |
 
+	  b8( [f'] e2.) |
+	  b8( [f'] e2.) \bar "||"
 
+          r8 bes32^\markup { \italic "fade out gradually" } \pp [aes ges c,] bes' [aes ges c,] bes' [aes ges c,] bes' [aes ges c,] bes' [aes ges c,] bes' [aes ges c,] bes' [aes ges c,] |
+          bes'32 [aes ges c,] bes' [aes ges c,] bes' [aes ges c,] bes' [aes ges c,] bes' [aes ges c,] bes' [aes ges c,] bes' [aes ges c,] bes' [aes ges c,] |
+          bes'32 [aes ges c,] bes' [aes ges c,] bes' [aes ges c,] bes' [aes ges c,] bes' [aes ges c,] bes' [aes ges c,] bes' [aes ges c,] bes' [aes ges c,] |
+          bes'32 [aes ges c,] bes' [aes ges c,] bes' [aes ges c,] bes' [aes ges c,] bes' [aes ges c,] bes' [aes ges c,] bes' [aes ges c,] r8 |
+	  
+          r8 bes'32 \pp [aes ges c,] bes' [aes ges c,] bes' [aes ges c,] bes' [aes ges c,] bes' [aes ges c,] bes' [aes ges c,] bes' [aes ges c,] |
+          bes'32 [aes ges c,] bes' [aes ges c,] bes' [aes ges c,] bes' [aes ges c,] bes' [aes ges c,] bes' [aes ges c,] bes' [aes ges c,] bes' [aes ges c,] |
+          bes'32 [aes ges c,] bes' [aes ges c,] bes' [aes ges c,] bes' [aes ges c,] bes' [aes ges c,] bes' [aes ges c,] bes' [aes ges c,] bes' [aes ges c,] |
+          bes'32 [aes ges c,] bes' [aes ges c,] bes' [aes ges c,] bes' [aes ges c,] bes' [aes ges c,] bes' [aes ges c,] bes' [aes ges c,] r8 |
+
+          r8 bes'32 \pp [aes ges c,] bes' [aes ges c,] bes' [aes ges c,] bes' [aes ges c,] bes' [aes ges c,] bes' [aes ges c,] bes' [aes ges c,] |
+          bes'32 [aes ges c,] bes' [aes ges c,] bes' [aes ges c,] bes' [aes ges c,] bes' [aes ges c,] bes' [aes ges c,] bes' [aes ges c,] bes' [aes ges c,] |
+          bes'32 [aes ges c,] bes' [aes ges c,] bes' [aes ges c,] bes' [aes ges c,] bes' [aes ges c,] bes' [aes ges c,] bes' [aes ges c,] bes' [aes ges c,] |
+          bes'32 [aes ges c,] bes' [aes ges c,] bes' [aes ges c,] bes' [aes ges c,] bes' [aes ges c,] bes' [aes ges c,] bes' [aes ges c,] r8 |
+
+          r8 bes'32 \pp [aes ges c,] bes' [aes ges c,] bes' [aes ges c,] bes' [aes ges c,] bes' [aes ges c,] bes' [aes ges c,] bes' [aes ges c,] |
+          bes'32 [aes ges c,] bes' [aes ges c,] bes' [aes ges c,] bes' [aes ges c,] bes' [aes ges c,] bes' [aes ges c,] bes' [aes ges c,] bes' [aes ges c,] |
+          bes'32 [aes ges c,] bes' [aes ges c,] bes' [aes ges c,] bes' [aes ges c,] bes' [aes ges c,] bes' [aes ges c,] bes' [aes ges c,] bes' [aes ges c,] |
+          bes'32 [aes ges c,] bes' [aes ges c,] bes' [aes ges c,] bes' [aes ges c,] bes' [aes ges c,] bes' [aes ges c,] bes' [aes ges c,] bes' [aes ges c,] \bar "|."
 
       }
     }
@@ -192,6 +219,38 @@
 	  aes4 ges8 [aes] es4 des |
 	  es4 aes, bes2) |
 
+	  \clef bass
+	  r4^\markup { \italic "secco" } d,,8( [gis] fis2 |
+	  gis4) ais8( [e'] d2 |
+	  e1) |
+	  fis2. g4 |
+
+	  <ais fis>1 |
+	  \clef treble
+	  <a' f d b>1~ |
+	  <a f d b>2.. r8 \bar "||"
+
+          r8 des,16 \pp [es] des [es des es] des [es des es] des [es des es] |
+          des16 [es des es] des [es des es] des [es des es] des [es des es] |
+          des16 [es des es] des [es des es] des [es des es] des [es des es] |
+          des16 [es des es] des [es des es] des [es des es] des [es] r8 |
+
+          r8 des16 \pp [es] des [es des es] des [es des es] des [es des es] |
+          des16 [es des es] des [es des es] des [es des es] des [es des es] |
+          des16 [es des es] des [es des es] des [es des es] des [es des es] |
+          des16 [es des es] des [es des es] des [es des es] des [es] r8 |
+
+          r8 des16 \pp [es] des [es des es] des [es des es] des [es des es] |
+          des16 [es des es] des [es des es] des [es des es] des [es des es] |
+          des16 [es des es] des [es des es] des [es des es] des [es des es] |
+          des16 [es des es] des [es des es] des [es des es] des [es] r8 |
+
+          r8 des16 \pp [es] des [es des es] des [es des es] des [es des es] |
+          des16 [es des es] des [es des es] des [es des es] des [es des es] |
+          des16 [es des es] des [es des es] des [es des es] des [es des es] |
+          des16 [es des es] des [es des es] des [es des es] des [es des es] \bar "|."
+
+
 
       }
     }
@@ -266,33 +325,47 @@
 
 
 	  r1 |
-	  r2.. a,,,16( [a'] |
+	  r2.. a,,,16( \ppp [a'] |
 	  <e''' b g c,,>1) |
 	  
 	  r1 |
-	  r2.. c,,,16( [c'] |
+	  r2.. c,,,16( \ppp [c'] |
 	  <e'' c g>1) |
 
 	  r1 |
-	  r2.. d,,,16( [d'] |
+	  r2.. d,,,16( \ppp [d'] |
 	  <g' d g,>1) |
-	  s1 |
-	  s1 |
-	  
+	  r1 |
 	  r1 |
 	  
-	  s1 |
-	  s1 |
+	  e,,8( \sustainOff [ais] gis2 ais4) |
+	  c8( [fis] e2 fis4) |
+	  gis1 |
+	  a2. ais4 |
+	  c2. d4 |
 	  
-	  s1 |
-	  
-	  s1 |
-	  s1 |
-	  
-	  s1 |	  
-	  s1 |
+	  e1~ \sustainOn |
+	  e2.. b,16( \sustainOn \f [b'] \bar "||"	  
+	  b'1)~ |
+	  b1~ |
+	  b1~ |
+	  b2.. r16 b,,32( \f [b'] |
 
-	  s1 |	  
+	  b'1)~ |
+	  b1~ |
+	  b1~ |
+	  b2.. r16 b,,32( \f [b'] |
+
+	  b'1)~ |
+	  b1~ |
+	  b1~ |
+	  b2.. r16 b,,32( \f [b'] |
+
+	  b'1)~ |
+	  b1~ |
+	  b1~ |
+	  b1 \bar "|."
+
 
       }
     }
