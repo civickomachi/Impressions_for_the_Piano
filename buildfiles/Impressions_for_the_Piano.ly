@@ -14,4 +14,6 @@ print-page-number = ##f
 \include "./Pieces/Ripples.ly"
 \include "./Pieces/In_the_precincts.ly"
 
+\include "./Pieces/Freedom_is_slavery.ly"
+
 }
