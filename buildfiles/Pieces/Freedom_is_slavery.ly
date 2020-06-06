@@ -16,7 +16,7 @@
     }
   >>
   \header {
-    piece = "Freedom is Slavery"
+    piece = "4. Freedom is Slavery"
   }
 
   \layout { }

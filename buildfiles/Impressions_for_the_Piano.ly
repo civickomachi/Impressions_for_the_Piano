@@ -3,7 +3,7 @@
 \header {
   title = "Impressions for the Piano"
   composer = "Naoya Ozawa"
-  subtitle = "(2020.03.15 - )"
+  subtitle = "(2020.03.15 - 2020.05.26)"
 }
 
 \paper {

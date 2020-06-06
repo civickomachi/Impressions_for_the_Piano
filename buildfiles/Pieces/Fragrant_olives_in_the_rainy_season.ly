@@ -1,6 +1,6 @@
 \version "2.18.2"
 
-%2020.05.18
+%2020.05.18-26
 
 \score{
   \new PianoStaff <<
@@ -8,12 +8,11 @@
       \clef bass
       \key aes \major
       \time 3/4
-%      \tempo 4 = 120
 
       \relative c' {
 
       	\mark "Andante"
-        c8_\markup { \italic "sempre sotto voce" }( [es] <f c>2) |
+        c8_\markup { \italic "sotto voce" }( [es] <f c>2) |
 	<es g,>8( [bes] <c aes>2) |
 	<bes g>8( [es] <g, es>2) |
 	<f des>8( [bes] <bes ges des>2) |
@@ -246,39 +245,39 @@
 
 	\key gis \minor
 
-	gis8 \sustainOn [dis' gis ais b dis \sustainOff ] |
-	e,,8 \sustainOn [b' e fis gis e \sustainOff ] |
-	fis,8 \sustainOn [cis' fis gis ais cis, \sustainOff ] |
-	b8 \sustainOn [fis' cis' dis] ais, \sustainOff [fis'] |
+	gis8 \sustainOn [dis' gis ais b dis ] |
+	e,,8 \sustainOn [b' e fis gis e ] |
+	fis,8 \sustainOn [cis' fis gis ais cis, ] |
+	b8 \sustainOn [fis' cis' dis] ais, \sustainOn [fis'] |
 
-	gis,8 \sustainOn [dis' b' dis cis b \sustainOff ] |
-	e,,8 \sustainOn [b' fis' gis cis e, \sustainOff ] |
-	fis,8 \sustainOn [cis' fis gis ais cis, \sustainOff ] |
-	b8 \sustainOn [fis' dis' fis, ais, \sustainOff fis' ] |
+	gis,8 \sustainOn [dis' b' dis cis b ] |
+	e,,8 \sustainOn [b' fis' gis cis e, ] |
+	fis,8 \sustainOn [cis' fis gis ais cis, ] |
+	b8 \sustainOn [fis' dis' fis, ais, \sustainOn fis' ] |
 
-	gis,8 \sustainOn [dis' gis dis'] cis4 \sustainOff |
-	e,,8 \sustainOn [b' e fis gis b, \sustainOff ] |
-	fis8 \sustainOn [cis' b' ais fis cis \sustainOff ] |
-	b8 \sustainOn [fis' b fis ais, \sustainOff fis' ] |
+	gis,8 \sustainOn [dis' gis dis'] cis4 |
+	e,,8 \sustainOn [b' e fis gis b, ] |
+	fis8 \sustainOn [cis' b' ais fis cis ] |
+	b8 \sustainOn [fis' b fis ais, \sustainOn fis' ] |
 
-	gis,8 \sustainOn [dis' gis ais b fis \sustainOff ] |
-	e,8 \sustainOn [b' e fis] gis4 \sustainOff |
-	fis,8 \sustainOn [cis' fis gis] ais4 \sustainOff |
-	gis,8 \sustainOn [dis' gis ais] b4 \sustainOff \bar "||"
+	gis,8 \sustainOn [dis' gis ais b fis ] |
+	e,8 \sustainOn [b' e fis] gis4 |
+	fis,8 \sustainOn [cis' fis gis] ais4 |
+	gis,8 \sustainOn [dis' gis ais] b4 \bar "||"
 
 	\key d \major
 
-	g,,8 \sustainOn [g' d' a'] b4 \sustainOff |
-	d,,8 \sustainOn [a' e' fis] a4 \sustainOff |
-	a,,8 \sustainOn [e' a e'] g4 \sustainOff |
-	b,,8 \sustainOn [fis' b cis d fis \sustainOff ] |
+	g,,8 \sustainOn [g' d' a'] b4 |
+	d,,8 \sustainOn [a' e' fis] a4 |
+	a,,8 \sustainOn [e' a e'] g4 |
+	b,,8 \sustainOn [fis' b cis d fis ] |
 
-	g,,8 \sustainOn [g' d' a'] b4 \sustainOff |
-	d,,8 \sustainOn [a' d e] fis4 \sustainOff |
+	g,,8 \sustainOn [g' d' a'] b4 |
+	d,,8 \sustainOn [a' d e] fis4 |
 	\key c \major
-	f,8 \sustainOn [c' f g] a4 \sustainOff |
-	c,,8 \sustainOn [g' c e] g4 \sustainOff |
-	g,8 \sustainOn [d' g a] b4 \sustainOff |
+	f,8 \sustainOn [c' f g] a4 |
+	c,,8 \sustainOn [g' c e] g4 |
+	g,8 \sustainOn [d' g a] b4 |
 	gis,8 \sustainOn [e' b'] r4. \bar "||"
 
 	\key aes \major
@@ -302,33 +301,33 @@
 
 	\key gis \minor
 
-	gis,8 \sustainOn [gis' dis' ais'] b4 \sustainOff |
-	cis,,8 \sustainOn [gis' cis e] gis4 \sustainOff |
-	dis,8 \sustainOn [ais' dis eis] fisis4 \sustainOff |
+	gis,8 \sustainOn [gis' dis' ais'] b4 |
+	cis,,8 \sustainOn [gis' cis e] gis4 |
+	dis,8 \sustainOn [ais' dis eis] fisis4 |
 	e,8 \sustainOn [b' e] r8 dis,8 \sustainOff [cis] |
 
-	b8 \sustainOn [gis'] dis'2 \sustainOff |
-	e,8 \sustainOn [b' e fis] gis4 \sustainOff |
-	dis,8 \sustainOn [ais'] dis2 \sustainOff |
-	a,8 \sustainOn [a' e' a gis fis] \sustainOff |
-	e,8 \sustainOn [b' e gis] b4 \sustainOff \bar "||"
+	b8 \sustainOn [gis'] dis'2 |
+	e,8 \sustainOn [b' e fis] gis4 |
+	dis,8 \sustainOn [ais'] dis2 |
+	a,8 \sustainOn [a' e' a gis fis] |
+	e,8 \sustainOn [b' e gis] b4 \bar "||"
 
 	\key d \minor
 
-	bes,,8 \sustainOn [bes' d a'] f4 \sustainOff |
-	c,8 \sustainOn [c' e c'] g4 \sustainOff |
-	d,8 \sustainOn [d' g d'] c4 \sustainOff |
-	es,,8 \sustainOn [es' g es'] bes4 \sustainOff |
+	bes,,8 \sustainOn [bes' d a'] f4 |
+	c,8 \sustainOn [c' e c'] g4 |
+	d,8 \sustainOn [d' g d'] c4 |
+	es,,8 \sustainOn [es' g es'] bes4 |
 
-	bes,,8 \sustainOn [bes' d a'] f4 \sustainOff |
-	c,8 \sustainOn [c' e c'] g4 \sustainOff |
-	des,8 \sustainOn [des' f des'] aes4 \sustainOff |
-	\tuplet 3/2 { ges,,8 \sustainOn [ges' ges] } \tuplet 3/2 { ges'8 [ges, ges \sustainOff ] } aes,8 \sustainOn [aes' \sustainOff ] \bar "||"
+	bes,,8 \sustainOn [bes' d a'] f4 |
+	c,8 \sustainOn [c' e c'] g4 |
+	des,8 \sustainOn [des' f des'] aes4 |
+	\tuplet 3/2 { ges,,8 \sustainOn [ges' ges] } \tuplet 3/2 { ges'8 [ges, ges] } aes,8 \sustainOn [aes'] \bar "||"
 
 	\key g \minor
 
-	<g g,>8 \sustainOn [bes'( a g f es \sustainOff ] |
-	<d g, c,>4. \sustainOn es8 [g, bes \sustainOff ] |
+	<g g,>8 \sustainOn [bes'( a g f es] |
+	<d g, c,>4. \sustainOn es8 [g, bes] |
 	<a d,>4. \sustainOn bes8 [c es] |
 	<d es,>4 \sustainOff bes aes |
 
@@ -339,48 +338,48 @@
 
 	\key gis \minor
 
-	gis'8 \sustainOn [dis' gis ais b dis \sustainOff ] |
-	e,,8 \sustainOn [b' e fis gis e \sustainOff ] |
-	fis,8 \sustainOn [cis' fis gis ais cis, \sustainOff ] |
-	b8 \sustainOn [fis' cis' dis] ais, \sustainOff [fis'] |
+	gis'8 \sustainOn [dis' gis ais b dis] |
+	e,,8 \sustainOn [b' e fis gis e] |
+	fis,8 \sustainOn [cis' fis gis ais cis,] |
+	b8 \sustainOn [fis' cis' dis] ais, \sustainOn [fis'] |
 
-	gis,8 \sustainOn [dis' b' dis cis b \sustainOff ] |
-	e,,8 \sustainOn [b' fis' gis cis e, \sustainOff ] |
-	fis,8 \sustainOn [cis' fis gis ais cis, \sustainOff ] |
-	b8 \sustainOn [fis' dis' fis, ais, \sustainOff fis' ] |
+	gis,8 \sustainOn [dis' b' dis cis b] |
+	e,,8 \sustainOn [b' fis' gis cis e,] |
+	fis,8 \sustainOn [cis' fis gis ais cis,] |
+	b8 \sustainOn [fis' dis' fis, ais, \sustainOn fis' ] |
 
-	gis,8 \sustainOn [dis' gis dis'] cis4 \sustainOff |
-	e,,8 \sustainOn [b' e fis gis b, \sustainOff ] |
-	fis8 \sustainOn [cis' b' ais fis cis \sustainOff ] |
-	b8 \sustainOn [fis' b fis ais, \sustainOff fis' ] |
+	gis,8 \sustainOn [dis' gis dis'] cis4 |
+	e,,8 \sustainOn [b' e fis gis b,] |
+	fis8 \sustainOn [cis' b' ais fis cis] |
+	b8 \sustainOn [fis' b fis ais, \sustainOn fis' ] |
 
-	gis,8 \sustainOn [dis' gis ais b fis \sustainOff ] |
-	e,8 \sustainOn [b' e fis] gis4 \sustainOff |
-	fis,8 \sustainOn [cis' fis gis] ais4 \sustainOff |
-	gis,8 \sustainOn [dis' gis ais] b4 \bar "||"
+	gis,8 \sustainOn [dis' gis ais b fis] |
+	e,8 \sustainOn [b' e fis] gis4 |
+	fis,8 \sustainOn [cis' fis gis] ais4 |
+	gis,8 \sustainOn [dis' gis ais] b4( \bar "||"
 
 	\key g \minor
 
-	es,2 \sustainOff d4 |
-	c2
+	es,2) \sustainOff d4( |
+	c2)
 
 	\key cis \minor
 
-	gis'4 |
-	cis,2 d4 |
-	e2
+	gis'4( |
+	cis,2) d4( |
+	e2)
 
 	\key c \minor
 
-	es4 |
-	aes2 g4 |
-	f2
+	es4( |
+	aes2) g4( |
+	f2)
 
 	\key fis \minor
 
-	cis4 |
-	fis,2 g4 |
-	a2
+	cis4( |
+	fis,2) g4( |
+	a2)
 
 	\key aes \major
 
@@ -394,7 +393,7 @@
     }
   >>
   \header {
-    piece = "Fragrant olives in the rainy season ('Tsuyu-no-Kinmokusei')"
+    piece = "3. Fragrant olives in the rainy season ('Tsuyu-no-Kinmokusei')"
   }
 
   \layout { }
